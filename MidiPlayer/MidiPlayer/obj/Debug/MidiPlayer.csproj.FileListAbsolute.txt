@@ -1,0 +1,36 @@
+C:\Users\Yuri\documents\visual studio 2015\Projects\WpfApplication4\WpfApplication4\obj\Debug\MidiPlayer.csprojResolveAssemblyReference.cache
+C:\Users\Yuri\documents\visual studio 2015\Projects\WpfApplication4\WpfApplication4\obj\Debug\MainWindow.baml
+C:\Users\Yuri\documents\visual studio 2015\Projects\WpfApplication4\WpfApplication4\obj\Debug\Player.baml
+C:\Users\Yuri\documents\visual studio 2015\Projects\WpfApplication4\WpfApplication4\obj\Debug\Settings.baml
+C:\Users\Yuri\documents\visual studio 2015\Projects\WpfApplication4\WpfApplication4\obj\Debug\MainWindow.g.cs
+C:\Users\Yuri\documents\visual studio 2015\Projects\WpfApplication4\WpfApplication4\obj\Debug\Player.g.cs
+C:\Users\Yuri\documents\visual studio 2015\Projects\WpfApplication4\WpfApplication4\obj\Debug\Settings.g.cs
+C:\Users\Yuri\documents\visual studio 2015\Projects\WpfApplication4\WpfApplication4\obj\Debug\App.g.cs
+C:\Users\Yuri\documents\visual studio 2015\Projects\WpfApplication4\WpfApplication4\obj\Debug\MidiPlayer.csproj.GenerateResource.Cache
+C:\Users\Yuri\documents\visual studio 2015\Projects\WpfApplication4\WpfApplication4\bin\Debug\MidiPlayer.exe.config
+C:\Users\Yuri\documents\visual studio 2015\Projects\WpfApplication4\WpfApplication4\bin\Debug\MidiPlayer.exe
+C:\Users\Yuri\documents\visual studio 2015\Projects\WpfApplication4\WpfApplication4\bin\Debug\MidiPlayer.pdb
+C:\Users\Yuri\documents\visual studio 2015\Projects\WpfApplication4\WpfApplication4\obj\Debug\MidiPlayer_MarkupCompile.cache
+C:\Users\Yuri\documents\visual studio 2015\Projects\WpfApplication4\WpfApplication4\obj\Debug\MidiPlayer_MarkupCompile.lref
+C:\Users\Yuri\documents\visual studio 2015\Projects\WpfApplication4\WpfApplication4\obj\Debug\MidiPlayer.g.resources
+C:\Users\Yuri\documents\visual studio 2015\Projects\WpfApplication4\WpfApplication4\obj\Debug\MidiPlayer.Properties.Resources.resources
+C:\Users\Yuri\documents\visual studio 2015\Projects\WpfApplication4\WpfApplication4\obj\Debug\MidiPlayer.exe
+C:\Users\Yuri\documents\visual studio 2015\Projects\WpfApplication4\WpfApplication4\obj\Debug\MidiPlayer.pdb
+E:\projects\MidiPlayer\MidiPlayer\bin\Debug\MidiPlayer.exe.config
+E:\projects\MidiPlayer\MidiPlayer\obj\Debug\MidiPlayer.exe
+E:\projects\MidiPlayer\MidiPlayer\obj\Debug\MidiPlayer.pdb
+E:\projects\MidiPlayer\MidiPlayer\bin\Debug\MidiPlayer.exe
+E:\projects\MidiPlayer\MidiPlayer\bin\Debug\MidiPlayer.pdb
+E:\projects\MidiPlayer\MidiPlayer\obj\Debug\MidiPlayer.csprojResolveAssemblyReference.cache
+E:\projects\MidiPlayer\MidiPlayer\obj\Debug\MainWindow.g.cs
+E:\projects\MidiPlayer\MidiPlayer\obj\Debug\Player.g.cs
+E:\projects\MidiPlayer\MidiPlayer\obj\Debug\Settings.g.cs
+E:\projects\MidiPlayer\MidiPlayer\obj\Debug\App.g.cs
+E:\projects\MidiPlayer\MidiPlayer\obj\Debug\MidiPlayer_MarkupCompile.cache
+E:\projects\MidiPlayer\MidiPlayer\obj\Debug\MidiPlayer_MarkupCompile.lref
+E:\projects\MidiPlayer\MidiPlayer\obj\Debug\MainWindow.baml
+E:\projects\MidiPlayer\MidiPlayer\obj\Debug\Player.baml
+E:\projects\MidiPlayer\MidiPlayer\obj\Debug\Settings.baml
+E:\projects\MidiPlayer\MidiPlayer\obj\Debug\MidiPlayer.g.resources
+E:\projects\MidiPlayer\MidiPlayer\obj\Debug\MidiPlayer.Properties.Resources.resources
+E:\projects\MidiPlayer\MidiPlayer\obj\Debug\MidiPlayer.csproj.GenerateResource.Cache

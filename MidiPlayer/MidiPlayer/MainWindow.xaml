@@ -1,0 +1,31 @@
+﻿<Window x:Class="WpfApplication4.MainWindow"
+        xmlns="http://schemas.microsoft.com/winfx/2006/xaml/presentation"
+        xmlns:x="http://schemas.microsoft.com/winfx/2006/xaml"
+        xmlns:d="http://schemas.microsoft.com/expression/blend/2008"
+        xmlns:mc="http://schemas.openxmlformats.org/markup-compatibility/2006"
+        xmlns:local="clr-namespace:WpfApplication4"
+        mc:Ignorable="d"
+        Title="MainWindow" Height="350" Width="525">
+    <Grid>
+        <Grid.RowDefinitions>
+            <RowDefinition Height="Auto"/>
+            <RowDefinition Height="Auto"/>
+            <RowDefinition/>
+            <RowDefinition Height="Auto" MinHeight="16"/>
+        </Grid.RowDefinitions>
+        <Menu x:Name="menu" HorizontalAlignment="Left" Margin="0" VerticalAlignment="Top" Height="18" Width="120">
+            <MenuItem Header="MenuItem" Margin="0"/>
+            <MenuItem Header="MenuItem" Margin="0"/>
+        </Menu>
+        <StackPanel Grid.Row="1" Orientation="Horizontal">
+            <Button x:Name="playerbutton" Content="Player" Width="75" Click="playerbutton_Click"/>
+            <Button x:Name="settingsbutton" Content="Settings" Width="75" Click="settingsbutton_Click"/>
+            <Button x:Name="button2" Content="Button" Width="75"/>
+            <Button x:Name="button3" Content="Button" Width="75"/>
+        </StackPanel>
+        <Frame x:Name="mainframe" Grid.Row="2" NavigationUIVisibility="Hidden">
+        </Frame>
+
+        <StatusBar Grid.Row="3"/>
+    </Grid>
+</Window>
