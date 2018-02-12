@@ -1,17 +1,8 @@
-﻿using System;
-using System.Collections.Generic;
-using System.Linq;
-using System.Text;
-using System.Threading.Tasks;
+﻿using System.Windows.Controls;
+using Sanford.Multimedia.Midi;
 using System.Windows;
-using System.Windows.Controls;
-using System.Windows.Data;
-using System.Windows.Documents;
-using System.Windows.Input;
-using System.Windows.Media;
-using System.Windows.Media.Imaging;
-using System.Windows.Navigation;
-using System.Windows.Shapes;
+using Microsoft.Win32;
+using System.IO;
 
 namespace MidiPlayer
 {
@@ -21,54 +12,100 @@ namespace MidiPlayer
     public partial class Player : Page
     {
         Stuff stuff;
+        private OutputDevice outDevice;
+        private int outDeviceID = 0;
+        private Sequence seq;
+        private Sequencer sq;
+        protected int zi;
+
+
         public Player()
         {
             InitializeComponent();
             stuff = new Stuff();
             stuff.Draw(StuffCanvas);
+
+            if (OutputDevice.DeviceCount == 0) {
+                MessageBox.Show("No MIDI output devices available.");
+            }
+            else {
+                outDevice = new OutputDevice(outDeviceID);
+                seq = new Sequence("d:\\1.mid");
+                seq.Format = 1;
+                //      string filename="";
+
+                //                OpenFileDialog openFileDialog = new OpenFileDialog();
+                //                if (openFileDialog.ShowDialog() == true)
+                //                   filename = openFileDialog.FileName;
+
+                //     seq.LoadAsync(filename);
+
+                zi = 1;
+
+                sq = new Sequencer();
+                sq.Position = 0;
+//                sq.PlayingCompleted += new System.EventHandler(this.HandlePlayingCompleted);
+                sq.ChannelMessagePlayed += new System.EventHandler<Sanford.Multimedia.Midi.ChannelMessageEventArgs>(this.HandleChannelMessagePlayed);
+                sq.SysExMessagePlayed += new System.EventHandler<Sanford.Multimedia.Midi.SysExMessageEventArgs>(this.HandleSysExMessagePlayed);
+                sq.Chased += new System.EventHandler<Sanford.Multimedia.Midi.ChasedEventArgs>(this.HandleChased);
+                sq.Stopped += new System.EventHandler<Sanford.Multimedia.Midi.StoppedEventArgs>(this.HandleStopped);
+
+
+                sq.Sequence = seq;
+                sq.Continue();
+
+
+  //              sequence1.LoadProgressChanged += HandleLoadProgressChanged;
+  ///             sequence1.LoadCompleted += HandleLoadCompleted;
+
+            }
+
+
+
+
         }
-    }
 
+        private void HandleChannelMessagePlayed(object sender, ChannelMessageEventArgs e)
+        {
 
-    public class Stuff{
-        public enum StuffType { stBass,stTreble,stBoth};
-        protected Canvas cnv;
-        protected StuffType stuffType;
-
-        public Stuff() {
-            stuffType = StuffType.stBoth;
+            outDevice.Send(e.Message);
+            zi++;
+            //            pianoControl1.Send(e.Message);
         }
 
-        protected void DrawLines() {
-            if (stuffType == StuffType.stBoth) {
-                var br = new SolidColorBrush();
-                br.Color = Color.FromRgb(0,0,0);
-                for (int i = 0; i < 5; i++) {
-                    Line ln = new Line();
-                    ln.X1 = 10;
-                    ln.Y1 = 10*i;
-                    ln.X2 = 100;
-                    ln.Y2 = 10 * i;
-                    ln.Stroke = br;
-
-                    cnv.Children.Add(ln);
-                }
-                
+        private void HandleChased(object sender, ChasedEventArgs e)
+        {
+            foreach (ChannelMessage message in e.Messages)
+            {
+                outDevice.Send(message);
             }
         }
-        protected void DrawBars() { }
-        protected void DrawNotes() { }
-        protected void DrawSign() { }
 
-
-        public void Draw(Canvas _cnv) {
-            cnv = _cnv;
-            DrawLines();
-            DrawBars();
-            DrawNotes();
-            DrawSign();
+        private void HandleSysExMessagePlayed(object sender, SysExMessageEventArgs e)
+        {
+            //     outDevice.Send(e.Message); Sometimes causes an exception to be thrown because the output device is overloaded.
         }
 
+        private void HandleStopped(object sender, StoppedEventArgs e)
+        {
+            foreach (ChannelMessage message in e.Messages)
+            {
+                outDevice.Send(message);
+              }
+
+            MessageBox.Show(zi.ToString());
+        }
+
+
+
+
+        private void Page_SizeChanged(object sender, System.Windows.SizeChangedEventArgs e)
+        {
+            stuff.SizeChanged();
+        }
     }
+
+
+   
 
 }

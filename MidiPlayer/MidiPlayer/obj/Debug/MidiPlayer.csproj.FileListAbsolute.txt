@@ -16,3 +16,6 @@ E:\projects\MidiPlayer\MidiPlayer\obj\Debug\Settings.baml
 E:\projects\MidiPlayer\MidiPlayer\obj\Debug\MidiPlayer.g.resources
 E:\projects\MidiPlayer\MidiPlayer\obj\Debug\MidiPlayer.Properties.Resources.resources
 E:\projects\MidiPlayer\MidiPlayer\obj\Debug\MidiPlayer.csproj.GenerateResource.Cache
+E:\projects\MidiPlayer\MidiPlayer\bin\Debug\Sanford.Multimedia.Midi.dll
+E:\projects\MidiPlayer\MidiPlayer\bin\Debug\Sanford.Multimedia.Midi.pdb
+E:\projects\MidiPlayer\MidiPlayer\bin\Debug\Sanford.Multimedia.Midi.xml

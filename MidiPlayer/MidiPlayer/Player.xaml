@@ -6,7 +6,7 @@
       xmlns:local="clr-namespace:MidiPlayer"
       mc:Ignorable="d" 
       d:DesignHeight="667.208" d:DesignWidth="1386.441"
-      Title="Player">
+      Title="Player" SizeChanged="Page_SizeChanged">
 
     <Grid RenderTransformOrigin="0.498,0.431">
         <Grid.RowDefinitions>
