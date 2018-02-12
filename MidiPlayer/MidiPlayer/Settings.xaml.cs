@@ -13,7 +13,7 @@ using System.Windows.Media.Imaging;
 using System.Windows.Navigation;
 using System.Windows.Shapes;
 
-namespace WpfApplication4
+namespace MidiPlayer
 {
     /// <summary>
     /// Логика взаимодействия для Settings.xaml

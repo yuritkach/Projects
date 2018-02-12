@@ -7,11 +7,11 @@ using System.Windows;
 // Управление общими сведениями о сборке осуществляется с помощью 
 // набора атрибутов. Измените значения этих атрибутов, чтобы изменить сведения,
 // связанные со сборкой.
-[assembly: AssemblyTitle("WpfApplication4")]
+[assembly: AssemblyTitle("MidiPlayer")]
 [assembly: AssemblyDescription("")]
 [assembly: AssemblyConfiguration("")]
 [assembly: AssemblyCompany("Vannza")]
-[assembly: AssemblyProduct("WpfApplication4")]
+[assembly: AssemblyProduct("MidiPlayer")]
 [assembly: AssemblyCopyright("Copyright © Vannza 2018")]
 [assembly: AssemblyTrademark("")]
 [assembly: AssemblyCulture("")]
