@@ -3,6 +3,8 @@ using Sanford.Multimedia.Midi;
 using System.Windows;
 using Microsoft.Win32;
 using System.IO;
+using System;
+using System.Windows.Threading;
 
 namespace MidiPlayer
 {
@@ -11,7 +13,7 @@ namespace MidiPlayer
     /// </summary>
     public partial class Player : Page
     {
-        Stuff stuff;
+        NoteControl note;
         private OutputDevice outDevice;
         private int outDeviceID = 0;
         private Sequence seq;
@@ -22,9 +24,8 @@ namespace MidiPlayer
         public Player()
         {
             InitializeComponent();
-            stuff = new Stuff();
-            stuff.Draw(StuffCanvas);
 
+          
             if (OutputDevice.DeviceCount == 0) {
                 MessageBox.Show("No MIDI output devices available.");
             }
@@ -70,7 +71,19 @@ namespace MidiPlayer
 
             outDevice.Send(e.Message);
             zi++;
-            //            pianoControl1.Send(e.Message);
+            if (e.Message.Command == ChannelCommand.NoteOn) {
+                Dispatcher.Invoke(DispatcherPriority.Background, new Action(() =>
+                {
+                    note = new NoteControl();
+                    note.value = e.Message.Data1;
+                    stuff.Send(note);
+                }));
+
+
+            }
+
+
+
         }
 
         private void HandleChased(object sender, ChasedEventArgs e)
@@ -101,7 +114,12 @@ namespace MidiPlayer
 
         private void Page_SizeChanged(object sender, System.Windows.SizeChangedEventArgs e)
         {
-            stuff.SizeChanged();
+            //stuff.SizeChanged();
+        }
+
+        private void StuffControl_Loaded(object sender, RoutedEventArgs e)
+        {
+
         }
     }
 

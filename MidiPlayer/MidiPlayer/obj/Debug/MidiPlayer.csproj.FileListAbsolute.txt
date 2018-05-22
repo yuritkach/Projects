@@ -3,7 +3,6 @@ E:\projects\MidiPlayer\MidiPlayer\obj\Debug\MidiPlayer.exe
 E:\projects\MidiPlayer\MidiPlayer\obj\Debug\MidiPlayer.pdb
 E:\projects\MidiPlayer\MidiPlayer\bin\Debug\MidiPlayer.exe
 E:\projects\MidiPlayer\MidiPlayer\bin\Debug\MidiPlayer.pdb
-E:\projects\MidiPlayer\MidiPlayer\obj\Debug\MidiPlayer.csprojResolveAssemblyReference.cache
 E:\projects\MidiPlayer\MidiPlayer\obj\Debug\MainWindow.g.cs
 E:\projects\MidiPlayer\MidiPlayer\obj\Debug\Player.g.cs
 E:\projects\MidiPlayer\MidiPlayer\obj\Debug\Settings.g.cs
@@ -19,3 +18,13 @@ E:\projects\MidiPlayer\MidiPlayer\obj\Debug\MidiPlayer.csproj.GenerateResource.C
 E:\projects\MidiPlayer\MidiPlayer\bin\Debug\Sanford.Multimedia.Midi.dll
 E:\projects\MidiPlayer\MidiPlayer\bin\Debug\Sanford.Multimedia.Midi.pdb
 E:\projects\MidiPlayer\MidiPlayer\bin\Debug\Sanford.Multimedia.Midi.xml
+E:\projects\MidiPlayer\MidiPlayer\obj\Debug\StuffControl.g.cs
+E:\projects\MidiPlayer\MidiPlayer\obj\Debug\StuffControl.baml
+E:\projects\MidiPlayer\MidiPlayer\obj\Debug\GeneratedInternalTypeHelper.g.cs
+E:\projects\MidiPlayer\MidiPlayer\bin\Debug\CalcBinding.dll
+E:\projects\MidiPlayer\MidiPlayer\bin\Debug\DynamicExpresso.Core.dll
+E:\projects\MidiPlayer\MidiPlayer\bin\Debug\DynamicExpresso.Core.xml
+E:\projects\MidiPlayer\MidiPlayer\obj\Debug\Dictionary.baml
+E:\projects\MidiPlayer\MidiPlayer\obj\Debug\MidiPlayer.csprojResolveAssemblyReference.cache
+E:\projects\MidiPlayer\MidiPlayer\obj\Debug\NoteControl.g.cs
+E:\projects\MidiPlayer\MidiPlayer\obj\Debug\NoteControl.baml

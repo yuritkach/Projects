@@ -3,22 +3,25 @@
       xmlns:x="http://schemas.microsoft.com/winfx/2006/xaml"
       xmlns:mc="http://schemas.openxmlformats.org/markup-compatibility/2006" 
       xmlns:d="http://schemas.microsoft.com/expression/blend/2008" 
+      xmlns:controls="clr-namespace:MidiPlayer"
       xmlns:local="clr-namespace:MidiPlayer"
-      mc:Ignorable="d" 
-      d:DesignHeight="667.208" d:DesignWidth="1386.441"
+    mc:Ignorable="d" 
+      d:DesignHeight="711.208" d:DesignWidth="1590.441"
       Title="Player" SizeChanged="Page_SizeChanged">
 
-    <Grid RenderTransformOrigin="0.498,0.431">
+    <Grid >
         <Grid.RowDefinitions>
-            <RowDefinition Height="39"/>
-            <RowDefinition/>
+            <RowDefinition Height="Auto" />
+            <RowDefinition Height="*" />
         </Grid.RowDefinitions>
-        <Canvas x:Name="StuffCanvas" Grid.Row="1"/>
-        <StackPanel Orientation="Horizontal">
+       
+        <StackPanel Orientation="Horizontal" x:Name="buttonPanel" Grid.Row="0">
             <Button x:Name="button" Content="Button" Margin="2"/>
             <Button x:Name="button1" Content="Button" Margin="2"/>
             <Button x:Name="button2" Content="Button" Margin="2"/>
             <Button x:Name="button3" Content="Button" Margin="2"/>
         </StackPanel>
+        <controls:StuffControl x:Name="stuff" Height="Auto"  Width="Auto" Grid.Row="1" ToolTip="нотный стан" Loaded="StuffControl_Loaded"/>
+
     </Grid>
 </Page>

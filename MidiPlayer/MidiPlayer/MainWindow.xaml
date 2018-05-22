@@ -18,7 +18,7 @@
             <MenuItem Header="MenuItem" Margin="0"/>
         </Menu>
         <StackPanel Grid.Row="1" Orientation="Horizontal">
-            <Button x:Name="playerbutton" Content="Player" Width="75" Click="playerbutton_Click"/>
+            <Button x:Name="playerbutton" Content="c" Width="75" Click="playerbutton_Click" Height="20" VerticalAlignment="Bottom"/>
             <Button x:Name="settingsbutton" Content="Settings" Width="75" Click="settingsbutton_Click"/>
             <Button x:Name="button2" Content="Button" Width="75"/>
             <Button x:Name="button3" Content="Button" Width="75"/>

@@ -10,11 +10,11 @@ none
 false
 DEBUG;TRACE
 E:\projects\MidiPlayer\MidiPlayer\App.xaml
-3-670948409
+6-1311977722
 
-12-1703582658
-14-1461931468
-MainWindow.xaml;Player.xaml;Settings.xaml;
+14-1187904415
+1841428264
+Dictionary.xaml;MainWindow.xaml;Player.xaml;Settings.xaml;NoteControl.xaml;StuffControl.xaml;
 
-False
+True
 

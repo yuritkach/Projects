@@ -1,4 +1,10 @@
-﻿using System.Windows;
+﻿using System;
+using System.Collections.Generic;
+using System.Windows;
+using System.Windows.Controls;
+using System.Windows.Media;
+using System.Windows.Shapes;
+using System.Windows.Threading;
 
 namespace MidiPlayer
 {
@@ -23,11 +29,22 @@ namespace MidiPlayer
         private void playerbutton_Click(object sender, RoutedEventArgs e)
         {
             mainframe.Content = player;
-        }
+
+            button3 = new Button { Content = "Button" };
+            Canvas.SetLeft(button3, 78);
+            Canvas.SetTop(button3, 119);
+            button3.Padding = new Thickness(10, 2, 10, 2);
+            player.stuff.cnv.Children.Add(button3);
+
+                 }
 
         private void settingsbutton_Click(object sender, RoutedEventArgs e)
         {
-            mainframe.Content = settings;
+          mainframe.Content = settings;
         }
+ 
+
     }
+
+
 }
