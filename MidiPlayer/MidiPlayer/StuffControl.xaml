@@ -10,7 +10,7 @@
                                    
              mc:Ignorable="d" AutomationProperties.Name="stuffControl" Height="170.607" Width="493.612">
     
-        <Canvas x:Name="cnv" Grid.ColumnSpan="1" Width="493" >
+        <Canvas x:Name="cnv" Grid.ColumnSpan="1" >
             <Line X1="0"
                   Y1="{c:Binding ElementName=stuff,Path=(ActualHeight/21)*3}" 
                   X2="{c:Binding ElementName=stuff,Path=ActualWidth}" 
@@ -71,14 +71,6 @@
                   Y2="{c:Binding ElementName=stuff,Path=(ActualHeight/21)*17}"
                   SnapsToDevicePixels = "True"
                   Stroke="Black" StrokeThickness="2"/>
-
-        <Ellipse                  
-            Canvas.Left="100"  
-            Canvas.Top="100"  
-            Height="30"
-            Width="20"
-            Stroke="Black" StrokeThickness="2" >
-        </Ellipse>
 
     </Canvas>
     

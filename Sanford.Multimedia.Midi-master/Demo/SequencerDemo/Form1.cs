@@ -46,7 +46,7 @@ namespace SequencerDemo
 
                     sequence1.LoadProgressChanged += HandleLoadProgressChanged;
                     sequence1.LoadCompleted += HandleLoadCompleted;
-                }
+                                    }
                 catch(Exception ex)
                 {
                     MessageBox.Show(ex.Message, "Error!",

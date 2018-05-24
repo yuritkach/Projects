@@ -568,6 +568,24 @@ namespace Sanford.Multimedia.Midi
 
                 return properties.Division;
             }
+            set
+            {
+                #region Require
+
+                if(disposed)
+                {
+                    throw new ObjectDisposedException("Sequence");
+                }
+                else if(IsBusy)
+                {
+                    throw new InvalidOperationException();
+                }
+
+                #endregion
+
+                properties.Division = value;
+            }            
+            
         }
 
         /// <summary>

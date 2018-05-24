@@ -29,14 +29,7 @@ namespace MidiPlayer
         private void playerbutton_Click(object sender, RoutedEventArgs e)
         {
             mainframe.Content = player;
-
-            button3 = new Button { Content = "Button" };
-            Canvas.SetLeft(button3, 78);
-            Canvas.SetTop(button3, 119);
-            button3.Padding = new Thickness(10, 2, 10, 2);
-            player.stuff.cnv.Children.Add(button3);
-
-                 }
+        }
 
         private void settingsbutton_Click(object sender, RoutedEventArgs e)
         {

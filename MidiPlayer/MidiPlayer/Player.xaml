@@ -16,7 +16,7 @@
         </Grid.RowDefinitions>
        
         <StackPanel Orientation="Horizontal" x:Name="buttonPanel" Grid.Row="0">
-            <Button x:Name="button" Content="Button" Margin="2"/>
+            <Button x:Name="button" Content="Button" Margin="2" Click="button_Click"/>
             <Button x:Name="button1" Content="Button" Margin="2"/>
             <Button x:Name="button2" Content="Button" Margin="2"/>
             <Button x:Name="button3" Content="Button" Margin="2"/>

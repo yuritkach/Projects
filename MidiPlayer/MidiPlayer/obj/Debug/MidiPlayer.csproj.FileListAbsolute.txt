@@ -25,6 +25,8 @@ E:\projects\MidiPlayer\MidiPlayer\bin\Debug\CalcBinding.dll
 E:\projects\MidiPlayer\MidiPlayer\bin\Debug\DynamicExpresso.Core.dll
 E:\projects\MidiPlayer\MidiPlayer\bin\Debug\DynamicExpresso.Core.xml
 E:\projects\MidiPlayer\MidiPlayer\obj\Debug\Dictionary.baml
-E:\projects\MidiPlayer\MidiPlayer\obj\Debug\MidiPlayer.csprojResolveAssemblyReference.cache
 E:\projects\MidiPlayer\MidiPlayer\obj\Debug\NoteControl.g.cs
 E:\projects\MidiPlayer\MidiPlayer\obj\Debug\NoteControl.baml
+E:\projects\MidiPlayer\MidiPlayer\bin\Debug\MidiPlayer.exe.CodeAnalysisLog.xml
+E:\projects\MidiPlayer\MidiPlayer\bin\Debug\MidiPlayer.exe.lastcodeanalysissucceeded
+E:\projects\MidiPlayer\MidiPlayer\obj\Debug\MidiPlayer.csprojResolveAssemblyReference.cache
