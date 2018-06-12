@@ -1,0 +1,17 @@
+c:\users\yuri\documents\visual studio 2015\Projects\WpfApplication9\WpfApplication9\bin\Debug\WpfApplication9.exe.config
+c:\users\yuri\documents\visual studio 2015\Projects\WpfApplication9\WpfApplication9\bin\Debug\WpfApplication9.exe
+c:\users\yuri\documents\visual studio 2015\Projects\WpfApplication9\WpfApplication9\bin\Debug\WpfApplication9.pdb
+c:\users\yuri\documents\visual studio 2015\Projects\WpfApplication9\WpfApplication9\obj\Debug\WpfApplication9.csprojResolveAssemblyReference.cache
+c:\users\yuri\documents\visual studio 2015\Projects\WpfApplication9\WpfApplication9\obj\Debug\MainWindow.g.cs
+c:\users\yuri\documents\visual studio 2015\Projects\WpfApplication9\WpfApplication9\obj\Debug\App.g.cs
+c:\users\yuri\documents\visual studio 2015\Projects\WpfApplication9\WpfApplication9\obj\Debug\WpfApplication9_MarkupCompile.cache
+c:\users\yuri\documents\visual studio 2015\Projects\WpfApplication9\WpfApplication9\obj\Debug\WpfApplication9_MarkupCompile.lref
+c:\users\yuri\documents\visual studio 2015\Projects\WpfApplication9\WpfApplication9\obj\Debug\MainWindow.baml
+c:\users\yuri\documents\visual studio 2015\Projects\WpfApplication9\WpfApplication9\obj\Debug\WpfApplication9.g.resources
+c:\users\yuri\documents\visual studio 2015\Projects\WpfApplication9\WpfApplication9\obj\Debug\WpfApplication9.Properties.Resources.resources
+c:\users\yuri\documents\visual studio 2015\Projects\WpfApplication9\WpfApplication9\obj\Debug\WpfApplication9.csproj.GenerateResource.Cache
+c:\users\yuri\documents\visual studio 2015\Projects\WpfApplication9\WpfApplication9\obj\Debug\WpfApplication9.exe
+c:\users\yuri\documents\visual studio 2015\Projects\WpfApplication9\WpfApplication9\obj\Debug\WpfApplication9.pdb
+c:\users\yuri\documents\visual studio 2015\Projects\WpfApplication9\WpfApplication9\bin\Debug\Sanford.Multimedia.Midi.dll
+c:\users\yuri\documents\visual studio 2015\Projects\WpfApplication9\WpfApplication9\bin\Debug\Sanford.Multimedia.Midi.pdb
+c:\users\yuri\documents\visual studio 2015\Projects\WpfApplication9\WpfApplication9\bin\Debug\Sanford.Multimedia.Midi.xml
