@@ -4,16 +4,16 @@
 winexe
 C#
 .cs
-E:\projects\MidiPlayer\MidiPlayer\obj\Debug\
+D:\Projects\MidiPlayer\MidiPlayer\obj\Debug\
 MidiPlayer
 none
 false
 DEBUG;TRACE
-E:\projects\MidiPlayer\MidiPlayer\App.xaml
+D:\Projects\MidiPlayer\MidiPlayer\App.xaml
 6-1311977722
 
-14-1187904415
-1841428264
+131271822108
+18559086095
 Dictionary.xaml;MainWindow.xaml;Player.xaml;Settings.xaml;NoteControl.xaml;StuffControl.xaml;
 
 True
